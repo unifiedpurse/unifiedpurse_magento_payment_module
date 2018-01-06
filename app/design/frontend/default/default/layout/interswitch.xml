@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<!--
+Unifiedpurse History Response Review
+-->
+<unifiedpurse_standard_history>
+    <reference name="root">
+        <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+    </reference>
+    <reference name="content">
+        <block type="unifiedpurse/standard_history" name="unifiedpurse_standard_history" template="unifiedpurse/standard/history.phtml">
+        </block>
+    </reference>
+</unifiedpurse_standard_history>
+
+</layout>
